@@ -1,3 +1,3 @@
-import os
+import streamlit as st
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+openai_api_key = st.secrets["OPENAI_API_KEY"]
